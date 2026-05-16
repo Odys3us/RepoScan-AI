@@ -57,7 +57,7 @@ scan_<timestamp>/
 ## 1. Clone this tool
 
 
-git clone https://github.com/YOUR_USERNAME/repo-scan-ai.git
+git clone https://github.com/Odys3us/RepoScan-AI.git
 cd repo-scan-ai
 chmod +x repo_scan.sh
 2. Install dependencies
@@ -110,9 +110,8 @@ Static grep matches
 
 Example structure:
 
-==============================
+
 AI SECURITY BRIEF
-==============================
 
 REPOSITORY:
 <repo url>
@@ -138,7 +137,6 @@ D) STATIC PATTERNS (GREP)
 - passwords
 - auth tokens
 
-==============================
 LLM TASK
 ==============================
 1. Identify credential exposure risks
@@ -200,6 +198,8 @@ RepoScan AI is built around:
 ⚡ Fast triage of large codebases
 🧩 Multi-tool correlation (not single-signal detection)
 
+
+
 ---
 
 🛠️ Roadmap
@@ -224,6 +224,7 @@ LLM-powered security auditing pipelines
 👤 Author
 
 Built for cybersecurity automation, OSINT workflows, and AI-assisted vulnerability analysis.
+
 
 
 
