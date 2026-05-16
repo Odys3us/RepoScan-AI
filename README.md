@@ -42,11 +42,17 @@ Each scan creates a timestamped workspace:
 
 scan_<timestamp>/
 ├── repo/ # Cloned repository
+
 ├── reports/
+
 │ ├── gitleaks.json # Secret scanning results
+
 │ ├── semgrep.json # Code security findings
+
 │ ├── trivy.json # Vulnerabilities (dependencies/OS)
+
 │ ├── grep.txt # Raw pattern matches
+
 │ └── ai_summary_pack.txt # LLM-ready security brief
 
 
