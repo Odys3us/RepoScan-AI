@@ -66,10 +66,14 @@ scan_<timestamp>/
 git clone https://github.com/Odys3us/RepoScan-AI.git
 cd repo-scan-ai
 chmod +x repo_scan.sh
+
+
 2. Install dependencies
 
 🔐 Gitleaks
 brew install gitleaks
+
+
 # OR
 sudo apt install gitleaks
 
