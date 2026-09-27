@@ -68,7 +68,7 @@ cd repo-scan-ai
 chmod +x repo_scan.sh
 
 
-2. Install dependencies
+## 2. Install dependencies
 
 🔐 Gitleaks
 brew install gitleaks
